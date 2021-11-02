@@ -3136,8 +3136,6 @@ input[type="url"].small .button.small {
   select {
     font-size: 12pt;
   }
-
-  /* Feature */
 }
 /* Narrower */
 @media screen and (max-width: 908px) {
