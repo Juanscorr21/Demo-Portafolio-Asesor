@@ -310,35 +310,6 @@
       </footer>
     </div>
 
-    <!-- Messenger plugin del chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your plugin del chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
-
-    <script>
-      var chatbox = document.getElementById("fb-customer-chat");
-      chatbox.setAttribute("page_id", "102430615586342");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function () {
-        FB.init({
-          xfbml: true,
-          version: "v12.0",
-        });
-      };
-
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
-
     <!-- Footer -->
     <div id="footer">
       <div class="container medium">
@@ -407,11 +378,6 @@
           href="https://api.whatsapp.com/send?phone=(+573243978280)&text=Hola! Quiero saber más sobre los seguros de vida"
           class="fab fa-whatsapp"
           id="whatsapp"
-        ></a>
-        <a
-          href="https://www.messenger.com/t/100074312293909/?messaging_source=source%3Apages%3Amessage_shortlink"
-          class="fab fa-facebook-messenger"
-          id="messenger"
         ></a>
       </div>
       <div class="btn-mas">
