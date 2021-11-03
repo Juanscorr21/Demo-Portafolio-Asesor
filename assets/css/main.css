@@ -2755,6 +2755,7 @@ input[type="url"].small .button.small {
   z-index: 100;
 }
 .redes a,
+.redes div,
 .btn-mas label {
   display: block;
   text-decoration: none;
