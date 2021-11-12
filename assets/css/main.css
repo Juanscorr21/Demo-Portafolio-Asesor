@@ -2811,6 +2811,7 @@ input[type="url"].small .button.small {
   font-size: 25px;
   color: #fff;
   margin-bottom: 100%;
+  margin-right: 5px;
 }
 #btn-mas:checked ~ .btn-mas label {
   transform: rotate(135deg);
