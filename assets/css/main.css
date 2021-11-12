@@ -2810,7 +2810,7 @@ input[type="url"].small .button.small {
   background: #016d39;
   font-size: 25px;
   color: #fff;
-  margin-bottom: 100%;
+  margin-bottom: 75%;
   margin-right: 5px;
 }
 #btn-mas:checked ~ .btn-mas label {
